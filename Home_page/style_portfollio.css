@@ -1,0 +1,181 @@
+
+.square_image {
+	position: relative;
+	height: 390px;
+	margin: 10px;
+}
+
+.landscape_image {
+	position: relative;
+	height: 390px;
+	margin: 10px;
+
+}
+
+.portrait_image{
+	position: relative;
+	width: 390px;
+	margin: 10px;
+}
+
+#home_images {
+	width: 1400px;
+	height: 1000px;
+	position: relative;
+	top:420px;
+/*	background-color: pink;
+*/	margin: 10px;
+
+}
+#bg_header {
+	width: 1400px;
+	height: 250px;
+	position: absolute;
+	/*background-color: lightyellow;*/
+	top: 120px;
+	margin: 10px;
+	font-family: "Avenir";
+	font-style: "Book";
+	font-size: 72px;
+}
+
+#my_works_items {
+	width: 1400px;
+	height: 1000px;
+	position: absolute;
+	/*background-color: lightyellow;*/
+	top: 120px;
+	margin: 10px;
+}
+
+.emphasis {
+	font-style: "Bold";
+	color: gold;
+}
+
+#top_menu {
+	width: 1410px;
+	height: 100px;
+	position: fixed;
+	margin:10px;
+	top: 30px;
+	background-color: lightslategray;
+	margin: auto;
+	z-index: 10;
+	opacity: 75%;
+	text-align: center;
+	
+}
+
+#top_menu_items_box {
+	
+	width: 500px;
+	height:30px;
+	left:450px;
+	top:90px;
+	position: fixed;
+	z-index: 12;
+}
+
+.top_menu_item {
+	
+	font-family: "Avenir";
+	font-style: "Book";
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	z-index: 11;
+
+*/}
+
+/*#home_button{
+	border-radius: 50%;
+	width:150px;
+	height: 150px;
+	position: fixed;
+	z-index: 11;
+}*/
+
+#me {
+	border-radius: 50%;
+	width:150px;
+	height: 150px;
+	position: fixed;
+	right: 8px;
+	z-index: 12;
+	background-color: white;
+	display: inline;
+
+}
+
+
+.categoriesplaceholder{
+	width: 500px;
+	height: 200px;
+	margin: 20px;
+	position: relative;
+	background-color: pink;
+	overflow: hidden;
+	justify-content: center;
+    vertical-align: center;
+
+}
+.categories_image {
+	display: flex;
+    overflow: hidden;
+    /*flex-shrink: 0;*/
+    max-width: 700px;
+    max-width:400px;
+    min-width: 500px;
+    min-height: 200px;
+}
+
+.project_items {
+	left: 540px;
+	top: 20px;
+	background-color: red;
+	width: 250px;
+	height: 200px;
+	position: absolute;
+
+}
+
+.max_image {
+	/*position: relative;*/
+	flex-shrink: 0;
+    max-width: 250px;
+    max-height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.comlab_project_items {
+    height:400px;
+    margin: 20px;
+    position: relative;
+
+}
+
+#body_30MFF_bg{
+	background-color: lightblue; 
+}
+
+#uniquemundaneitems {
+	width: 1410px;
+	text-align: center;
+	font-family: "Bebas Neue";
+	font-style: "normal";
+	font-size: 150px;
+	color: #D5EDF3;
+	background-color: #74B9CA;
+	padding: 0px;
+	top: 150px;
+	position: fixed;
+
+}
+
+}
+
