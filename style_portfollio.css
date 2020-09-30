@@ -163,19 +163,97 @@
 	background-color: lightblue; 
 }
 
-#uniquemundaneitems {
-	width: 1410px;
-	text-align: center;
-	font-family: "Bebas Neue";
-	font-style: "normal";
-	font-size: 150px;
-	color: #D5EDF3;
-	background-color: #74B9CA;
-	padding: 0px;
-	top: 150px;
-	position: fixed;
+#MFFvideo {
+	top:150px;
+	height: 480px;
+	width: 640px;
+	position: absolute;
 
 }
 
+
+#uniquemundaneitems {
+	/*width: 1410px;*/
+	align-content: center;
+	padding: 0%;
+	top: 20%;
+	right: 1%;
+	position: absolute;
+	margin: 0%;
+	background-color: #6bb5c7;
+	width: 52%;
+	height: 64%;
+}
+
+#MFFtitle {
+	font-family: "Bebas Neue";
+	font-style: "normal";
+	font-size: 600%;
+	color: #c8e3ea;
+	position: relative;
+	text-align:center;
+}
+
+#MFFbody {
+	font-family: Gill Sans, Arial;
+	font-style: bold;
+	font-size: 190%;
+	color: white;
+	text-align: left;
+	margin-left: 3%;
+	margin-right: 3%;
+	position: relative;
+}
+
+#MFF_team {
+	width: 100%;
+	height: 80%;
+/*	background-color: lightpink;
+*/	top: 90%;
+	position: absolute;
+}
+#MFF_team_title {
+	font-family: "Bebas Neue";
+	font-style: "normal";
+	background-color: #6bb5c7; 
+	font-size: 700%;
+	color: #c8e3ea;
+	text-align: center;
+	position: absolute;
+	top: 87%;
+	width: 98.5%
+	/*margin: 5%;*/
+
+}
+
+.MFF_team_pics {
+	border-radius: 50%;
+	width:85%;
+	
+}
+
+.MFF_team{ 
+	/*width: 100%;
+	height: 80%;*/
+	text-align: center;
+	position: absolute;
+	top:105%;
+ }
+
+.MFF_team_details {
+	font-family: Gill Sans;
+	font-style: normal;
+	font-size: 100%;
+	color: navy;
+}
+
+.MF_team_container {
+	width: 22%;
+	height: 70%;
+	position: relative;
+	/*background-color: lightpink;*/
+	display: inline-block;
+	top: 100%;
+	margin: 1%;
 }
 
