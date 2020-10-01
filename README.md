@@ -1,6 +1,8 @@
-[# paredesfluffyshark.github.io] (https://paredesfluffyshark.github.io/index.html)
+# paredesfluffyshark.github.io
+[website link](https://paredesfluffyshark.github.io/index.html)
 
-[## 30MFF Web page] (https://paredesfluffyshark.github.io/com_lab/30MFF.html)
+## 30MFF Web page 
+[page link](https://paredesfluffyshark.github.io/com_lab/30MFF.html)
 
 ### Project Description: 
 This webpage is meant to display the 30MFF video project that was made collaboratively between 4 NYUAD students and was hosted by the Interactive Media Department of NYUAD. In one hour, the randomly grouped students were meant to plan, shoot and edit a quick 2 minute video. It could be about any topic and could be done as creatively as possible. My teams video which I titled *Unique Mundane Items* features my 3 teammates and I passing around seemingly ordinary objects and showcases how even though these items look mundane, theyare unique to us and showcase our individuality. It is a fun and cute video that makes people who watch it smile.
