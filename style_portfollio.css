@@ -170,7 +170,7 @@
 
 }
 .comlab_project_titles {
-	font-family: Gill Sans;
+	font-family: Cabin;
 	font-style: normal;
 	font-size: 200%;
 	color: tomato ;
@@ -212,9 +212,9 @@
 }
 
 #MFFbody {
-	font-family: Gill Sans, Arial;
+	font-family: Cabin, Arial;
 	font-style: bold;
-	font-size: 190%;
+	font-size: 180%;
 	color: white;
 	text-align: left;
 	margin-left: 3%;
@@ -258,7 +258,7 @@
  }
 
 .MFF_team_details {
-	font-family: Gill Sans;
+	font-family: Cabin;
 	font-style: normal;
 	font-size: 100%;
 	color: navy;
