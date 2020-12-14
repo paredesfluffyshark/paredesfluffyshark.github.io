@@ -1,42 +1,61 @@
 
 .square_image {
 	position: relative;
-	height: 390px;
-	margin: 10px;
+	height: 50%;
+	margin: 0.5%;
 }
 
 .landscape_image {
 	position: relative;
-	height: 390px;
-	margin: 10px;
+	height: 50%;
+	margin: 0.5%;
 
 }
 
 .portrait_image{
 	position: relative;
-	width: 390px;
-	margin: 10px;
+	height: 50%;
+	margin: 0.5%;
+}
+#home_flexbox{
+	display: flex;
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	align-content: space-around;
+/*	flex-direction: column;
+*/	justify-content: space-around;
+	width: 100%;
+	height: 100%;
+	background-color: pink;
+	position: relative;
 }
 
 #home_images {
-	width: 1400px;
-	height: 1000px;
-	position: relative;
-	top:420px;
-/*	background-color: pink;
-*/	margin: 10px;
-
+	display: flex;
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+/*	top:35%;
+*//*	background-color: pink;
+*//*	margin: 10px;
+*/
 }
 #bg_header {
-	width: 1400px;
-	height: 250px;
+	display: flex;
+	width: 100%;
+	height: 50%;
 	position: absolute;
-	/*background-color: lightyellow;*/
-	top: 120px;
-	margin: 10px;
+	background-color: lightyellow;
+	/*top: 15%;
+	margin: 2%;*/
 	font-family: "Avenir";
 	font-style: "Book";
-	font-size: 72px;
+	font-size: 210%;
+	text-align: center;
 }
 
 #my_works_items {
@@ -44,8 +63,9 @@
 	height: 50%;
 	margin: 1%;
 	position: absolute;
-	/*background-color: lightyellow;*/
+	background-color: lightyellow;
 	top: 20%;
+
 	}
 
 .emphasis {
@@ -55,10 +75,9 @@
 
 #top_menu {
 	width: 100%;
-	height: 15%;
+	height: 10%;
 	position: fixed;
-	margin:10px;
-	top: 30px;
+	top: 8%;
 	background-color: lightslategray;
 	margin: auto;
 	z-index: 10;
@@ -105,36 +124,67 @@
 
 }
 
-
-.categoriesplaceholder{
-	width: 500px;
-	height: 200px;
-	margin: 20px;
-	position: relative;
-	background-color: pink;
-	overflow: hidden;
+#items_div{
+	width: 98%;
+	height: 100%;
+	/*margin: 1%;*/
+	position: absolute;
+	background-color: lightyellow;
+	top: 20%;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
     vertical-align: center;
 
 }
-.categories_image {
+.section {
 	display: flex;
-    overflow: hidden;
-    /*flex-shrink: 0;*/
-    max-width: 700px;
-    max-width:400px;
-    min-width: 500px;
-    min-height: 200px;
+	width: 100%;
+	height: 20%;
+	margin: 1%;
+/*	background-color: blue;
+*/	justify-content: flex-start;
+	align-content: center;
+
+}
+.categoriesplaceholder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	height: 90%;
+	background-color: pink;
+	margin: 0.5%;
 }
 
-.project_items {
-	left: 540px;
-	top: 20px;
-	background-color: red;
-	width: 250px;
-	height: 200px;
-	position: absolute;
+.categoriesplaceholdertext {
+	font-family: "Bebas Neue", "Impact";
+	font-style: "normal";
+	font-size: 500%;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
 
+.section_item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: wrap;
+	width: 15%;
+	height: 90%;
+/*	background-color: red;
+*/	margin: 0.5%;
+}
+
+.section_itemtext {
+	font-family: "Bebas Neue", "Impact";
+	font-style: "normal";
+	font-size: 300%;
+	color: black;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 .max_image {
