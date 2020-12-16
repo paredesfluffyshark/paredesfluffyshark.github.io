@@ -1,5 +1,9 @@
 body {
-	background-color: lightslategray;
+	background-color: #eddcd2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 #top_menu {
 	width: 100%;
@@ -9,7 +13,7 @@ body {
 	background-color: lightslategray;
 	margin: auto;
 	z-index: 10;
-	opacity: 75%;
+	opacity: 50%;
 	
 }
 
@@ -55,10 +59,20 @@ body {
 	/*display: inline;*/
 
 }
+
+#content {
+	display: flex;
+	justify-content: space-around;
+	align-items: space-around;
+	flex-direction: column;
+	top: 15%;
+	background-color: pink;
+	width: 100%;
+	height: 150%;
+	flex-wrap: wrap;
+}
 #title {
 	display: flex;
-	justify-content: center;
-	position: absolute;
 	top: 10%;
 	align-items: center;
 	width: 100%;
@@ -68,7 +82,53 @@ body {
 #titletext {
 	font-family: "Bebas Neue", "Impact";
 	font-style: "normal";
-	font-size: 600%;
-	color: pink;
+	font-size: 800%;
+	color: #cb997e;
 	text-align: center;
+	margin:5%;
+}
+
+#char_sheetcontainer{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	background-color: black;
+	top: 20%;
+	position: absolute;
+
+}
+
+#char_sheet {
+	height: 100%;
+	width: 50%;
+	margin: 3%;
+/*	background-color: red;
+*/
+}
+
+#char_sheet_image {
+	height: 100%;
+}
+
+#char_sheet_text {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 100%
+	width: 30%;
+	background-color: #a5a58d;
+	margin: 3%;
+}
+
+#text {
+	color: #fff1e6;
+	font-family: Gill Sans, Roboto;
+	font-size: 100%;
+	margin: 5%;
+	text-align: justify;
+  	text-justify: inter-word;
+
 }
