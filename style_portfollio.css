@@ -2,6 +2,12 @@
 a {
 	text-decoration: none;
 }
+
+#index_bg {
+	height: 100%
+	width: 100%;
+	background-color: #5D5F71;
+}
 /*home images*/
 
 .square_image {
