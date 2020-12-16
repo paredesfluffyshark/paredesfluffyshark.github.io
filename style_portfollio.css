@@ -6,59 +6,59 @@ a {
 
 .square_image {
 	position: relative;
-	height: 50%;
-	margin: 0.5%;
+	height: 100%;
 }
 
 .landscape_image {
 	position: relative;
-	height: 50%;
-	margin: 0.5%;
+	height: 100%;
 
 }
 
 .portrait_image{
 	position: relative;
-	height: 50%;
-	margin: 0.5%;
+	height: 100%;
 }
+
+.home_image {
+	height: 50%;
+	margin: 1%;
+}
+
 #home_flexbox{
 	display: flex;
-	/*flex-direction: row;*/
-	/*flex-wrap: wrap;*/
+	flex-direction: column;
 	align-content: space-around;
-/*	flex-direction: column;
-*/	justify-content: space-around;
+	justify-content: space-around;
 	width: 100%;
 	height: 100%;
-	background-color: pink;
-	position: relative;
+	top: 25%;
+/*	background-color: pink;
+*/	position: absolute;
 }
 
 #home_images {
 	display: flex;
-	/*flex-direction: row;*/
 	flex-wrap: wrap;
-	align-content: space-around;
-	justify-content: space-evenly;
+	align-content: center;
+	justify-content: center;
 	width: 100%;
-	height: 100%;
-	position: absolute;
-
+	height: 70%;
+/*	background-color: black;
+*/
 }
 
 /*bg text*/
+
 #bg_header {
-	display: flex;
 	width: 100%;
-	height: 50%;
-	position: absolute;
-	background-color: lightyellow;
-	/*top: 15%;
+	height: 30%;
+/*	background-color: lightyellow;
+*/	/*top: 15%;
 	margin: 2%;*/
 	font-family: "Avenir";
 	font-style: "Book";
-	font-size: 210%;
+	font-size: 300%;
 	text-align: center;
 }
 
