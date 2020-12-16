@@ -2,7 +2,7 @@
 
 a {
 	text-decoration: none;
-	
+
 }
 #top_menu {
 	width: 100%;
@@ -32,7 +32,7 @@ a {
 
 .top_menu_item {
 	
-	font-family: "Avenir", "Calibri";
+	font-family: "Avenir", "Calibri", "Helvetica";
 	font-style: "Book";
 	font-size: 120%;
 	color: white;
@@ -155,7 +155,7 @@ h1 {
 }
 .text_content{
 	align-content: center;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", "Helvetica";
 	font-size: 100%;
 	/*color: ##A7BED3;*/
 	color: lightgray;
@@ -165,7 +165,7 @@ h1 {
 
 .text_title{
 	align-content: center;
-	font-family: Gill Sans;
+	font-family: "Gill Sans", "Helvetica";
 	font-size: 200%;
 	color: white;
 	margin:2%;
