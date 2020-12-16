@@ -29,9 +29,9 @@ body {
 
 .top_menu_item {
 	
-	font-family: "Avenir", "Calibri";
+	font-family: Gill Sans, Verdana, Arial, Calibri, 'Roboto', sans-serif;
 	font-style: "Book";
-	font-size: 120%;
+	font-size: 150%;
 	color: white;
 	text-align: center;
 	width: 15%;

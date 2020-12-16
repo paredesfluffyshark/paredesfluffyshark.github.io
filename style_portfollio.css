@@ -56,7 +56,7 @@ a {
 /*	background-color: lightyellow;
 */	/*top: 15%;
 	margin: 2%;*/
-	font-family: "Avenir";
+	font-family: 'Roboto', sans-serif;
 	font-style: "Book";
 	font-size: 300%;
 	text-align: center;
@@ -110,9 +110,8 @@ a {
 
 .top_menu_item {
 	
-	font-family: "Avenir", "Calibri";
-	font-style: "Book";
-	font-size: 120%;
+	font-family:Gill Sans, Verdana, Calibri, 'Roboto', sans-serif;
+	font-size: 150%;
 	color: white;
 	text-align: center;
 	width: 15%;
